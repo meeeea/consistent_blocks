@@ -5,7 +5,7 @@
 		"id": "consistent_blocks",
 		"version": "${version}",
 		"metadata": {
-			"name": "Mod Name",
+			"name": "Consistent BLocks",
 			"description": "makes blocks more consistent_blocks",
 			"contributors": {
 				"Your name here": "Justin"
@@ -14,7 +14,7 @@
 				"issues": "https://github.com/meeeea/consistent_blocks/issues",
 				"sources": "https://github.com/meeeea/consistent_blocks"
 			},
-			"icon": "assets/example_mod/icon.png"
+			"icon": "assets/consistent_blocks/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
