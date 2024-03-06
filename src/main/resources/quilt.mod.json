@@ -2,24 +2,23 @@
 	"schema_version": 1,
 	"quilt_loader": {
 		"group": "${group}",
-		"id": "example_mod",
+		"id": "consistent_blocks",
 		"version": "${version}",
 		"metadata": {
 			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"description": "makes blocks more consistent_blocks",
 			"contributors": {
-				"Your name here": "Owner"
+				"Your name here": "Justin"
 			},
 			"contact": {
-				"homepage": "https://example.com/",
-				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
-				"sources": "https://github.com/QuiltMC/quilt-template-mod"
+				"issues": "https://github.com/meeeea/consistent_blocks/issues",
+				"sources": "https://github.com/meeeea/consistent_blocks"
 			},
 			"icon": "assets/example_mod/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "com.meeeea.consistent_blocks.ConsistentBlocks"
 		},
 		"depends": [
 			{
@@ -36,5 +35,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "consistent_blocks.mixins.json"
 }
